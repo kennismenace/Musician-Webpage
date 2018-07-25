@@ -1,0 +1,104 @@
+/* styles for mia musician webpage */
+
+body {
+	background-color: #168E16;
+	margin: 0;
+}
+
+header {
+	padding: 2em;
+}
+
+header img {
+	width: 50%;
+	max-width: 300px;
+}
+
+.social {
+	width: 30px;
+	max-width: 300px;
+	float: right;
+	padding: 1em;
+}
+
+.albumContainer {
+	background-color: none;
+	width: 70%;
+	max-width: 5000px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.albumBorderOne {
+	background-color: black;
+	width: 50%;
+	max-width: 300px;
+	padding: 1em;
+	margin:1em;
+}
+
+.albumBorderTwo {
+	background-color: black;
+	width: 50%;
+	max-width: 300px;
+	padding: 1em;
+	margin:1em;
+}
+
+.albumBorderThree {
+	background-color: black;
+	width: 50%;
+	max-width: 300px;
+	padding: 1em;
+	margin:1em;
+}
+
+.albumBorderFour {
+	background-color: black;
+	width: 50%;
+	max-width: 300px;
+	padding: 1em;
+	margin:1em;
+}
+
+.albumBorderFive {
+	background-color: black;
+	width: 50%;
+	max-width: 300px;
+	padding: 1em;
+	margin:1em;
+}
+
+.albumBorderSix {
+	background-color: black;
+	width: 50%;
+	max-width: 300px;
+	padding: 1em;
+	margin: 1em;
+}
+
+footer {
+	background-color: white;
+/* 
+	position: fixed;
+ */
+	left: 0;
+	bottom: 0;
+	width: 100%;	
+}
+
+.flexChildren {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+footer img{
+	width: 8%;
+	max-width: 300px;
+}
