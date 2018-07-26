@@ -1,5 +1,6 @@
 /* styles for mia musician webpage */
 
+
 body {
 	background-color: #168E16;
 	margin: 0;
@@ -15,10 +16,20 @@ header img {
 }
 
 .social {
-	width: 30px;
-	max-width: 300px;
+	width: 100%;
+	max-width: 80px;
 	float: right;
-	padding: 1em;
+	background-color: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.social a {
+	display: block;
+	margin: auto;
+	text-align: center;
+	padding: 0.5em;
 }
 
 .albumContainer {
@@ -82,12 +93,9 @@ header img {
 
 footer {
 	background-color: white;
-/* 
-	position: fixed;
- */
 	left: 0;
 	bottom: 0;
-	width: 100%;	
+	right: 0;
 }
 
 .flexChildren {
@@ -99,6 +107,19 @@ footer {
 }
 
 footer img{
-	width: 8%;
+	width: 10%;
 	max-width: 300px;
+	margin-bottom: 1em;
+}
+
+.imageIncrease {
+	background-color: black;
+	padding: 1em;
+	text-align: right;
+}
+
+.imageIncreaseTwo {
+	background-color: black;
+	padding: 1em;
+	text-align: center;
 }
